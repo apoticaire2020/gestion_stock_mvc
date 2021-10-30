@@ -9,6 +9,9 @@
   <bean id="articleService" class="com.stock.mvc.services.impl.ArticleServiceImpl">
       <property name="dao" ref="articleDao"></property>
   </bean>
-  
+   <bean id="categorieDao" class="com.stock.mvc.dao.impl.CategoryDaoImpl" />
+  <bean id="categorieService" class="com.stock.mvc.services.impl.CategorieServiceImpl">
+      <property name="dao" ref="categorieDao"></property>
+  </bean>
 
 </beans>

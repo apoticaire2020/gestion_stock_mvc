@@ -33,7 +33,7 @@ public class LoginController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "login/login";
+		return "blanc/blank";
 	}
 	
 }
